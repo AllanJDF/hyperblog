@@ -1,8 +1,16 @@
 body
+<<<<<<< HEAD
 {     
     text-align: center;
     font-family: "TimesNewRoman";
     font-size: 16px;
+=======
+{   
+    background-color: darkgrey;   
+    text-align: center;
+    font-family: "Arial";
+    font-size: 15px;
+>>>>>>> cabecera
     margin: 0;
     padding: 0; 
 }
@@ -15,7 +23,26 @@ body
     border: 1px solid #ddd;
     margin: 0 auto;
 }
-#container h1
+
+    #container h1
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+#cabecera
 {
-    font-size: 20px;
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
 }
+
+    #cabecera #tagline
+    {
+        padding: 0 0 0 1em;
+        font-weight: normal;
+        font-size: 0.8em;
+    }
