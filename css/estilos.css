@@ -1,16 +1,8 @@
 body
-<<<<<<< HEAD
 {     
     text-align: center;
     font-family: "TimesNewRoman";
     font-size: 16px;
-=======
-{   
-    background-color: darkgrey;   
-    text-align: center;
-    font-family: "Arial";
-    font-size: 15px;
->>>>>>> cabecera
     margin: 0;
     padding: 0; 
 }
